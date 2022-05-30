@@ -1,8 +1,9 @@
 :root {
-    --primary-color: #C3AED6;
-    --text-accent: #8675A9;
+    --primary-color: #D22779;
+    --text-accent: #FF008E;
     --text-font: 'Barlow Condensed', sans-serif;
     --title-font: 'Nanum Gothic', sans-serif;
+    --box-shadow: 4px 3px #ff008c51;
 }
 
 h1{
@@ -23,7 +24,7 @@ p{
 }
 
 .container {
-    box-shadow: 4px 3px #8675a961;
+    box-shadow: var(--box-shadow);
 }
 
 .homepage-hero{
@@ -35,8 +36,8 @@ p{
 
 .intro-pic {
     padding: 10px;
-    border: 0.5px solid #8675A9;
-    box-shadow: 4px 3px #8675a961;
+    border: 0.5px solid #d2277ac5;
+    box-shadow: var(--box-shadow);
 }
 
 .name{
