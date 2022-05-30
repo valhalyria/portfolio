@@ -1,7 +1,51 @@
+:root {
+    --primary-color: #C3AED6;
+    --text-accent: #8675A9;
+    --text-font: 'Barlow Condensed', sans-serif;
+    --title-font: 'Nanum Gothic', sans-serif;
+}
+
 h1{
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: var(--title-font);
+    color: var(--text-accent);
+    font-size: 48px;
+    font-weight: 400;
+}
+
+h2{
+    font-family: var(--text-font);
+    font-size: 38px;
+    font-weight: 200;
 }
 
 p{
-    font-family: 'Nanum Gothic', sans-serif;
+    font-family: var(--text-accent);
+}
+
+.container {
+    box-shadow: 4px 3px #8675a961;
+}
+
+.homepage-hero{
+    max-width: 98%;
+    margin-top: 40px;
+    padding: 150px 40px;
+    border: 1px solid var(--primary-color);
+}
+
+.intro-pic {
+    padding: 10px;
+    border: 0.5px solid #8675A9;
+    box-shadow: 4px 3px #8675a961;
+}
+
+.name{
+    margin: 0px 20px;
+    padding: 10px;
+}
+
+.navbar a{
+    color: var(--text-accent);
+    font-family: var(--title-font);
+    font-weight: 300;
 }
