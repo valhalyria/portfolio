@@ -134,6 +134,11 @@ a:hover {
     margin: 0 auto;
 }
 
+.contact{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 @media(max-width:577px){
     h1{
         font-size: 32px;
@@ -164,7 +169,7 @@ a:hover {
     }
 
     .subtitle{
-        font-size: 32px;
+        font-size: 24px;
     }
 
     .link{
