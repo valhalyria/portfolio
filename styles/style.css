@@ -32,6 +32,9 @@ a:hover {
     color: var(--primary-color);
 }
 
+.active{
+    text-transform: uppercase;
+}
 
 .hero{
     box-shadow: var(--box-shadow);
