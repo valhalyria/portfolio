@@ -4,6 +4,7 @@
     --text-font: 'Barlow Condensed', sans-serif font-weight: 200;
     --title-font: 'Nanum Gothic', sans-serif;
     --box-shadow: 4px 3px #ff008c51;
+    --border: 1px solid var(--primary-color);
 }
 
 h1{
@@ -31,19 +32,27 @@ a:hover {
     color: var(--primary-color);
 }
 
-.homepage-hero{
+
+.hero{
     box-shadow: var(--box-shadow);
     max-width: 98%;
     margin-top: 40px;
+    border: var(--border);
+}
+
+.homepage{
     padding: 160px 40px;
-    border: 1px solid var(--primary-color);
+}
+
+.project-page { 
+    padding: 60px 40px;
 }
 
 .introduction{
     box-shadow: var(--box-shadow);
     max-width: 50%;
     margin: 0 auto;
-    border: 1px solid var(--primary-color);
+    border: var(--border);
 }
 
 .intro-pic {
@@ -109,6 +118,17 @@ a:hover {
     max-height: 300px !important;
 }
 
+.project-card{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.project{
+    border: var(--border);
+    padding: 10px;
+    box-shadow: var(--box-shadow);
+}
+
 @media(max-width:577px){
     h1{
         font-size: 32px;
@@ -117,7 +137,7 @@ a:hover {
         font-size: 24px;
     }
 
-    .homepage-hero{
+    .homepage{
         padding: 80px 20px;
     }
 
