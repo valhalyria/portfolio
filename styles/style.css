@@ -129,6 +129,11 @@ a:hover {
     box-shadow: var(--box-shadow);
 }
 
+.project img{
+    display: block;
+    margin: 0 auto;
+}
+
 @media(max-width:577px){
     h1{
         font-size: 32px;
@@ -139,6 +144,19 @@ a:hover {
 
     .homepage{
         padding: 80px 20px;
+    }
+
+    .project-page{
+        padding: 30px 20px;
+    }
+
+    .project{
+        padding: 5px;
+        margin: 5px 0;
+    }
+
+    .project img{
+        margin: 0 auto;
     }
 
     .introduction{
