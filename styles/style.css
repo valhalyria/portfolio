@@ -28,6 +28,12 @@ p{
     font-size: 18px;
 }
 
+i{
+    color: var(--text-accent);
+    font-size: 40px;
+    padding: 32px;
+}
+
 a:hover {
     cursor: pointer;
     color: var(--primary-color);
