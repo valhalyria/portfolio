@@ -158,6 +158,16 @@ a:hover {
     justify-content: space-evenly;
 }
 
+.credits{
+    text-align: center;
+    font-size: 16px;
+}
+
+.credits a{
+    text-decoration: none;
+    color: var(--text-accent);
+}
+
 @media(max-width:577px){
     h1{
         font-size: 32px;
