@@ -30,8 +30,13 @@ p{
 
 i{
     color: var(--text-accent);
-    font-size: 40px;
-    padding: 32px;
+    font-size: 34px;
+    padding-top: 38px;
+}
+
+.icons{
+    justify-content: space-evenly;
+    display: flex;
 }
 
 a:hover {
@@ -156,6 +161,7 @@ a:hover {
 @media(max-width:577px){
     h1{
         font-size: 32px;
+        padding: 5px;
     }
     h2{
         font-size: 24px;
@@ -183,7 +189,8 @@ a:hover {
     }
 
     .subtitle{
-        font-size: 24px;
+        font-size: 22px;
+        padding: 5px;
     }
 
     .link{
@@ -203,5 +210,10 @@ a:hover {
 
     p{
         font-size: 14px;
+    }
+
+    i{
+        font-size: 18px;
+        margin: 0px 8px;
     }
 }
