@@ -65,6 +65,10 @@ a:hover {
     box-shadow: var(--box-shadow);
 }
 
+.navbar{
+    padding: 12px;
+}
+
 .navbar a{
     color: var(--text-accent) !important; 
     font-family: var(--title-font);
