@@ -25,6 +25,7 @@ h2{
 p{
     font-family: var(--text-font);
     font-weight: 200;
+    font-size: 18px;
 }
 
 a:hover {
